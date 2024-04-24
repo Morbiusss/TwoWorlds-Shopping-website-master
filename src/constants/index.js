@@ -294,10 +294,10 @@ export const SplOfferData = [
 export const paginationItems = [
   {
     _id: "201",
-    img: IMPRIMANTE_PANTUM_CP2200DW,
-    productName: "Imprimante PANTUM CP2200DW",
+    img:'https://i.pinimg.com/564x/11/78/25/117825bb6fc989f64979d77c4ed47392.jpg',
+    productName: "Brown check shirt",
     price: "35.00",
-    color: "Blanc",
+    color: "Brown",
     badge: true,
     brand: "Pantum",
     des: "Imprimante Laser PANTUM Couleur - Fonctions: Impression  - Technologie d'impression: Laser - Format Papier: A4 - Vitesse d’impression(Couleur/N&B): 24 ppm (A4) / 26 ppm (Lettre) - Résolution d'impression: 600 x 600 dpi - Sortie papier: 100 page - Mémoire: Double cœur, 1 GHz - Impression recto verso: Automatique - Heure de la première impression: Moins de 11s  - Connecteurs: USB 2.0 haut débit Ethernet 10/100/1000 BaseTX (RJ-45) 802.11b/g/n Sans fil - Dimensions: 411.2 x 394.1 x 243.7mm - Poids: 16,1 kg - Couleur: Blanc",
@@ -321,9 +321,9 @@ export const paginationItems = [
   {
     _id: "202",
     img: 'https://i.pinimg.com/564x/7e/99/59/7e99598bdb45e15f17a925634d4dd528.jpg',
-    productName: "IMPRIMANTE PANTUM BM5100FDW",
+    productName: "blue shirt",
     price: "450",
-    color: "Blanc",
+    color: "Blue",
     badge: true,
     brand: "Pantum",
     des: "Pantum BM5100fdw Imprimante laser mono : Pantum BM5100fdw -Imprimante :laser -monochrome multifonction,:format A4-,4-en-1 avec fonctions impression, copie, numérisation et fax, vitesse d'impression de 40ppm, connexion Réseau :LAN RJ45-, Wifichrome multifonction, format A4, 4-en-1 avec fonctions impression, copie, numérisation et fax, vitesse d'impression de 40ppm, connexion Réseau LAN RJ45, Wifi",
@@ -364,7 +364,7 @@ export const paginationItems = [
 
   {
     _id: "203",
-    img: IMPRIMANTE_PANTUM_BP5100DN,
+    img: 'https://i.pinimg.com/564x/4b/de/1d/4bde1df166270558e508ceed0711e524.jpg',
     productName: "IMPRIMANTE PANTUM BP5100DN",
     price: "450",
     color: "Blanc",
@@ -407,7 +407,7 @@ export const paginationItems = [
   },
   {
     _id: "2005",
-    img: IMPRIMANTE_PANTUM_M6609N,
+    img: 'https://i.pinimg.com/564x/9e/a7/d5/9ea7d59057055fff17a7bb368473e618.jpg',
     productName: "IMPRIMANTE PANTUM M6559N",
     price: "450",
     color: "Blanc",
@@ -450,7 +450,7 @@ export const paginationItems = [
 
   {
     _id: "20005",
-    img: IMPRIMANTE_PANTUM_M6559N,
+    img: 'https://i.pinimg.com/564x/6e/9d/2d/6e9d2d33fab011954c664ec72f9ce47c.jpg',
     productName: "IMPRIMANTE PANTUM M6559N",
     price: "450",
     color: "Blanc",
@@ -493,7 +493,7 @@ export const paginationItems = [
 
   {
     _id: "206",
-    img: IMPRIMANTE_PANTUM_P3300DN,
+    img:'https://i.pinimg.com/736x/da/59/2d/da592d722242a8e098ee8da211070982.jpg',
     productName: "IMPRIMANTE PANTUM P3300DN",
     price: "450",
     color: "Blanc",
