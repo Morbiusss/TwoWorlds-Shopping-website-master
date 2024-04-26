@@ -18,7 +18,7 @@ const ProductsOnSale = () => {
             </div>
             <div className="flex flex-col gap-2 font-titleFont">
               <p className="text-base font-medium">{item.productName}</p>
-              <p className="text-sm font-semibold">${item.price}</p>
+              <p className="text-sm font-semibold">Rs{item.price}</p>
             </div>
           </div>
         ))}

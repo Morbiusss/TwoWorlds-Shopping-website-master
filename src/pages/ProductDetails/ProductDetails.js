@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import Breadcrumbs from "../../components/pageProps/Breadcrumbs";
 import ProductInfo from "../../components/pageProps/productDetails/ProductInfo";
-import { FaDownload } from "react-icons/fa";
+// import { FaDownload } from "react-icons/fa";
 
 const tabs = [
   {
@@ -67,7 +67,7 @@ const ProductDetails = () => {
         </div>
         <div>
           <div className=" space-x-4  pt-4">
-            {tabs.map((tab) => (
+            {/* {tabs.map((tab) => (
               <button
                 key={tab.id}
                 className={`${
@@ -79,9 +79,9 @@ const ProductDetails = () => {
               >
                 {tab.label}
               </button>
-            ))}
+            ))} */}
           </div>
-          <div className="my-4">
+          {/* <div className="my-4">
             {tabs.map((tab) => (
               <div
                 key={tab.id}
@@ -102,7 +102,7 @@ const ProductDetails = () => {
                       </tbody>
                     </table>
                     <div className="my-4 flex justify-end">
-                      <button className="inline-flex items-center px-4 py-2 border border-gray-300 bg-blue-500 hover:bg-blue-600 text-white font-bodyFont">
+                      {/* <button className="inline-flex items-center px-4 py-2 border border-gray-300 bg-blue-500 hover:bg-blue-600 text-white font-bodyFont">
                         <FaDownload className="h-5 w-5 mr-2 text-white" />
                         <a
                           href={productInfo.pdf}
@@ -112,7 +112,7 @@ const ProductDetails = () => {
                         >
                           Download PDF
                         </a>{" "}
-                      </button>
+                      </button> }
                     </div>
                   </div>
                 ) : (
@@ -120,7 +120,7 @@ const ProductDetails = () => {
                 )}
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

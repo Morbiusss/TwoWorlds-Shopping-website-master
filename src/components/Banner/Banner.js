@@ -152,25 +152,25 @@ const Banner = () => {
   const slides = [
     {
       imgSrc: 'https://images.pexels.com/photos/8441596/pexels-photo-8441596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      text: "Enhance Your Printing Experience",
+      text: "Enhance Your Dressing Experience",
       Subtext:
-        "Explore our premium printers and consumables for exceptional results",
+        "Explore our premium clothing ",
       buttonLink: "/offer",
       buttonText: "Shop Now",
     },
     {
       imgSrc: 'https://images.pexels.com/photos/4821423/pexels-photo-4821423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      text: "Quality Printing Solutions",
+      text: "An Iconic fasion brand",
       Subtext:
-        "Discover our wide range of printers and consumables designed for professional printing needs.",
+        "Discover our wide range of shirts and dress.",
       buttonLink: "/shop",
       buttonText: "About-us",
     },
     {
       imgSrc: 'https://images.pexels.com/photos/9558601/pexels-photo-9558601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      text: "Efficiency Redefined",
+      text: "For Any Query ",
       Subtext:
-        "Maximize productivity with our advanced printers and high-quality consumables. ",
+        "",
       buttonLink: "/contact",
       buttonText: "Contact-us",
     },

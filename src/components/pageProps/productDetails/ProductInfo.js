@@ -8,34 +8,34 @@ const ProductInfo = ({ productInfo }) => {
     fontWeight: "bold", // Change this to the desired font weight
   };
 
-  const renderDescription = () => {
-    if (!productInfo.des) {
-      return null; // or handle accordingly if product.des is not defined
-    }
+  // const renderDescription = () => {
+  //   if (!productInfo.des) {
+  //     return null; // or handle accordingly if product.des is not defined
+  //   }
 
-    const description = productInfo.des.split(/:(.*?)-/).map((part, index) => {
-      return (
-        <span key={index} style={index % 2 === 1 ? highlightStyle : {}}>
-          {part}
-        </span>
-      );
-    });
+  //   const description = productInfo.des.split(/:(.*?)-/).map((part, index) => {
+  //     return (
+  //       <span key={index} style={index % 2 === 1 ? highlightStyle : {}}>
+  //         {part}
+  //       </span>
+  //     );
+  //   });
 
-    return <>{description}</>;
-  };
+  //   return <>{description}</>;
+  // };
   const dispatch = useDispatch();
   return (
     <div className="flex flex-col gap-5">
       <h2 className="text-4xl font-semibold">{productInfo.productName}</h2>
       <p className="text-2xl font-semibold">
-        {productInfo.price} Dt
-        <span className="text-xl font-semibold line-through ml-2">540</span>
+        3{productInfo.price} 
+        <span className="text-xl font-semibold line-through ml-2"></span>
         <span className="text-xs ml-2 inline-flex items-center px-3 py-1 rounded-full bg-green-600 text-white">
-          Save 100
+          Save 100 on checkout
         </span>
       </p>
       <hr />
-      <p className="text-base text-gray-600">{renderDescription()}</p>
+      {/* <p className="text-base text-gray-600">{renderDescription()}</p> */}
 
       <div className="flex items-center">
         <p className="text-sm mr-2"> leave a review </p>
