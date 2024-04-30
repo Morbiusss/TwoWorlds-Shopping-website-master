@@ -25,6 +25,8 @@ import Shop from "./pages/Shop/Shop";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+import Chatbot from "./components/Chatbot/Chatbot";
+
 const Layout = () => {
   return (
     <div>
@@ -76,6 +78,7 @@ function App() {
   return (
     <div className="font-bodyFont">
       <RouterProvider router={router} />
+      <Chatbot />
     </div>
   );
 }
