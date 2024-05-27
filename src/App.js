@@ -24,6 +24,8 @@ import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import Shop from "./pages/Shop/Shop";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import ChatBot from "react-chatbotify";
+import { DeepChat } from "deep-chat-react";
 
 const Layout = () => {
   return (
@@ -47,6 +49,7 @@ const Layout = () => {
       <Outlet />
       <Footer />
       <FooterBottom />
+      <DeepChat/>
     </div>
   );
 };
