@@ -67,7 +67,7 @@ const ProductDetails = () => {
         </div>
         <div>
           <div className=" space-x-4  pt-4">
-            {/* {tabs.map((tab) => (
+            {tabs.map((tab) => (
               <button
                 key={tab.id}
                 className={`${
@@ -79,7 +79,7 @@ const ProductDetails = () => {
               >
                 {tab.label}
               </button>
-            ))} */}
+            ))}
           </div>
           {/* <div className="my-4">
             {tabs.map((tab) => (

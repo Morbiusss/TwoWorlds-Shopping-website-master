@@ -1,0 +1,629 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you?",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey",
+                "Hello, thanks for visiting",
+                "Hello there, what can I do for you?",
+                "Hello there, how can I help you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Take care",
+                "Have a good day"
+            ],
+            "responses": [
+                "Goodbye, have a great day!",
+                "See you later!",
+                "Take care!",
+                "Goodbye, it was nice helping you!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Appreciate it",
+                "Thanks a lot"
+            ],
+            "responses": [
+                "You're welcome!",
+                "No problem!",
+                "Glad I could help!",
+                "Anytime!"
+            ]
+        },
+        
+        
+        {
+            "tag": "womens_top",
+            "patterns": [
+                "Show me women's tops",
+                "Looking for blouses for women",
+                "Women's shirts",
+                "Show me ladies' tops"
+            ],
+            "responses": [
+                "Here are some women's tops.",
+                "Check out our collection of women's blouses.",
+                "We have a variety of women's shirts available."
+            ]
+        },
+        
+        {
+            "tag": "womens_dress",
+            "patterns": [
+                "Show me women's dresses",
+                "Looking for gowns for women",
+                "Women's dress",
+                "Show me ladies' dresses"
+            ],
+            "responses": [
+                "Here are some women's dresses.",
+                "Check out our collection of women's gowns.",
+                "We have a variety of women's dresses available."
+            ]
+        },
+        {
+            "tag": "workout_gym_clothes",
+            "patterns": [
+                "Show me workout clothes",
+                "Looking for gym wear",
+                "Workout outfits",
+                "Show me gym clothes"
+            ],
+            "responses": [
+                "Here are some workout clothes.",
+                "Check out our collection of gym wear.",
+                "We have a variety of workout outfits available."
+            ]
+        },
+        {
+            "tag": "kids_boys_clothes",
+            "patterns": [
+                "Show me boys' clothes",
+                "Looking for kids' shirts",
+                "Boys' clothing",
+                "Show me boys' outfits"
+            ],
+            "responses": [
+                "Here are some boys' clothes.",
+                "Check out our collection of kids' shirts.",
+                "We have a variety of boys' clothing available."
+            ]
+        },
+        {
+            "tag": "kids_girls_clothes",
+            "patterns": [
+                "Show me girls' clothes",
+                "Looking for kids' dresses",
+                "Girls' clothing",
+                "Show me girls' outfits"
+            ],
+            "responses": [
+                "Here are some girls' clothes.",
+                "Check out our collection of kids' dresses.",
+                "We have a variety of girls' clothing available."
+            ]
+        },
+        
+        {
+            "tag": "occasion",
+            "patterns": [
+                "I have a party coming up",
+                "What should I wear to a festival?",
+                "Looking for something for a social gathering",
+                "Attire for a wedding",
+                "What's appropriate for a casual outing?"
+            ],
+            "responses": [
+                "For the party, we recommend a stylish outfit that stands out.",
+                "Festivals are a great opportunity to showcase your unique style! Consider something vibrant and comfortable.",
+                "For social gatherings, go for something chic yet comfortable, like a trendy top paired with jeans.",
+                "For weddings, dress to impress! Opt for elegant attire that complements the occasion.",
+                "For a casual outing, choose something relaxed and stylish, like a comfortable top with trendy pants or shorts."
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "How long does delivery take?",
+                "Can I track my order?",
+                "Delivery options",
+                "Shipping charges",
+                "Delivery time"
+            ],
+            "responses": [
+                "Our delivery times vary depending on location and shipping method.",
+                "You can track your order through our website.",
+                "For more information about delivery, please visit our website or contact customer service."
+            ]
+        },
+        {
+            "tag": "general_query",
+            "patterns": [
+                "Do you have a store near me?",
+                "Can I return items?",
+                "Are there any discounts?",
+                "How can I contact customer service?"
+            ],
+            "responses": [
+                "We have stores in many locations, check our website for details.",
+                "Our returns policy allows you to return items within a certain period.",
+                
+                "Stay tuned for our latest discounts and promotions.",
+                "You can contact our customer service team through our website or by phone."
+            ]
+        },
+        
+        {
+            "tag": "cancel_order",
+            "patterns": [
+                "I want to cancel my order",
+                "Can I cancel my order?",
+                "How do I cancel my order?",
+                "I need to cancel my order",
+                "Please cancel my order",
+                "Cancel my order",
+                "Can you cancel my order?",
+                "I want to stop my order"
+            ],
+            "responses": [
+                "To cancel your order, please visit your order history and select the order you wish to cancel.",
+                "You can cancel your order by going to the order details page and clicking on 'Cancel Order'.",
+                "Visit your account's order history and select the order you want to cancel.",
+                "To cancel your order, please navigate to the order section in your account and follow the cancellation steps.",
+                "You can cancel your order through the order history section in your account."
+            ]
+        },
+        {
+            "tag": "sales_discounts",
+            "patterns": [
+                "Are there any sales?",
+                "What discounts are available?",
+                "Do you have any discounts?",
+                "Any sales going on?",
+                "Tell me about current discounts",
+                "Are there any promotions?",
+                "What are the current deals?",
+                "Do you have any offers?",
+                "Are there any ongoing sales?",
+                "Can I get a discount?"
+            ],
+            "responses": [
+                "We currently have a sale on select items. Please visit our 'Sales' section for more details.",
+                "Check out our 'Discounts' page for the latest promotions and offers.",
+                "We have various discounts available. Please refer to our 'Offers' section for more information.",
+                "Yes, we have ongoing sales. Visit the 'Sales' page to see all the current discounts.",
+                "You can find the latest discounts and promotions on our 'Deals' page.",
+                "Visit our 'Promotions' section to see all the current offers and discounts.",
+                "We offer various discounts on select items. Please check our 'Sales' page for details.",
+                "Yes, we have special offers available. Visit our 'Offers' section to learn more."
+            ]
+        },
+        {
+            "tag": "summer_clothes",
+            "patterns": [
+                "Do you have summer clothes?",
+                "What summer clothes do you have?",
+                "Show me summer outfits",
+                "I need clothes for summer",
+                "Summer clothing options?",
+                "What summer collections are available?",
+                "Any summer clothes?",
+                "Can you recommend summer wear?",
+                "What should I wear in summer?",
+                "Looking for summer clothes"
+            ],
+            "responses": [
+                "We have a wide range of summer clothes available in our 'Summer Collection' section.",
+                "Check out our 'Summer Collection' for the latest summer outfits and trends.",
+                "Our 'Summer Collection' features a variety of cool and comfortable clothes perfect for the season.",
+                "Explore our 'Summer Collection' for stylish and breathable summer wear.",
+                "Visit our 'Summer Collection' to find the best clothes for staying cool and fashionable this summer.",
+                "We offer a great selection of summer clothes. Head over to our 'Summer Collection' to see more.",
+                "Our 'Summer Collection' includes dresses, shorts, t-shirts, and more perfect for summer.",
+                "Discover our 'Summer Collection' for a variety of summer clothes to suit your style."
+            ]
+        },
+        {
+            "tag": "payment",
+            "patterns": [
+                "What payment methods do you accept?",
+                "Is it safe to enter my credit card information?",
+                "Can I pay with PayPal?",
+                "Are there any additional fees for using a certain payment method?",
+                "Do you offer payment plans or installment options?",
+                "How do I apply a discount code to my order?",
+                "Can I use multiple payment methods for one order?",
+                "Do you accept gift cards?",
+                "What currency do you accept?"
+            ],
+            "responses": [
+                "We accept a variety of payment methods, including credit/debit cards, PayPal, and more. Your payment information is secure with us.",
+                "Yes, it is safe to enter your credit card information on our website. We use secure encryption technology to protect your data.",
+                "You can pay with PayPal at checkout. Just select PayPal as your payment method.",
+                "We do not charge additional fees for using specific payment methods. However, please check with your bank or payment provider for any applicable fees on their end.",
+                "We do not currently offer payment plans or installment options.",
+                "To apply a discount code to your order, enter the code at checkout in the 'Apply Discount Code' section.",
+                "Unfortunately, we only accept one payment method per order.",
+                "Yes, we accept gift cards. You can enter your gift card code at checkout to redeem it.",
+                "We accept payments in multiple currencies. Your total will be converted to your local currency at checkout."
+            ]
+        },
+        {
+            "tag": "payment_methods",
+            "patterns": [
+                "Do you accept UPI payments?",
+                "Can I use UPI to pay for my order?",
+                "What is the process for making a payment through UPI?",
+                "Do you support RuPay Card payments?",
+                "Can I pay using my RuPay Card?",
+                "How do I use my RuPay Card for payment?"
+            ],
+            "responses": [
+                "We accept UPI payments & RuPay Card. You can select your payment method at checkout."
+                
+            ]
+        },
+        {
+            "tag": "pants_inquiry",
+            "patterns": [
+                "Do you have pants?",
+                "What pants do you have?",
+                "Show me some pants",
+                "I need new pants",
+                "Pants options?",
+                "What pants are available?",
+                "Any pants?",
+                "Can you recommend some pants?",
+                "What pants do you sell?",
+                "Looking for pants"
+            ],
+            "responses": [
+                "We have a variety of pants available in our collection. Go Shop > Category",
+                "Check out our pants section for the latest styles and trends.  Go Shop > Category",
+                "Our collection features a wide range of pants suitable for different occasions.  Go Shop > Category",
+                "Explore our pants section for stylish and comfortable options.  Go Shop > Category",
+                "Visit our pants section to find the perfect pair for your wardrobe.  Go Shop > Category",
+                "We offer a great selection of pants. Head over to our pants section to see more.  Go Shop > Category",
+                "Our collection includes jeans, chinos, trousers, and more.  Go Shop > Category",
+                "Discover our pants section for a variety of styles to suit your needs.  Go Shop > Category"
+            ]
+        },
+        {
+            "tag": "shirt_inquiry",
+            "patterns": [
+                "Do you have shirts?",
+                "What shirts do you have?",
+                "Show me some shirts",
+                "I need new shirts",
+                "Shirts options?",
+                "What shirts are available?",
+                "Any shirts?",
+                "Can you recommend some shirts?",
+                "What shirts do you sell?",
+                "Looking for shirts"
+            ],
+            "responses": [
+                "We have a variety of shirts available in our collection.  Go Shop > Category",
+                "Check out our shirts section for the latest styles and trends.  Go Shop > Category",
+                "Our collection features a wide range of shirts suitable for different occasions.  Go Shop > Category",
+                "Explore our shirts section for stylish and comfortable options.  Go Shop > Category",
+                "Visit our shirts section to find the perfect addition to your wardrobe.  Go Shop > Category",
+                "We offer a great selection of shirts. Head over to our shirts section to see more. Go Shop > Category",
+                "Our collection includes casual, formal, and designer shirts.  Go Shop > Category",
+                "Discover our shirts section for a variety of styles to suit your needs.  Go Shop > Category"
+            ]
+        },
+        {
+            "tag": "jeans_inquiry",
+            "patterns": [
+                "Do you have jeans?",
+                "What jeans do you have?",
+                "Show me some jeans",
+                "I need new jeans",
+                "Jeans options?",
+                "What jeans are available?",
+                "Any jeans?",
+                "Can you recommend some jeans?",
+                "What jeans do you sell?",
+                "Looking for jeans"
+            ],
+            "responses": [
+                "We have a variety of jeans available in our collection.  Go Shop > Category",
+                "Check out our jeans section for the latest styles and trends.  Go Shop > Category",
+                "Our collection features a wide range of jeans suitable for different occasions.  Go Shop > Category",
+                "Explore our jeans section for stylish and comfortable options.  Go Shop > Category",
+                "Visit our jeans section to find the perfect addition to your wardrobe.  Go Shop > Category",
+                "We offer a great selection of jeans. Head over to our jeans section to see more.  Go Shop > Category",
+                "Our collection includes casual, skinny, and designer jeans.  Go Shop > Category",
+                "Discover our jeans section for a variety of styles to suit your needs.  Go Shop > Category"
+            ]
+        },
+        {
+            "tag": "purchase_recommendation",
+            "patterns": [
+                "What should I buy?",
+                "Can you recommend something to buy?",
+                "Any suggestions on what to purchase?",
+                "What do you suggest I buy?",
+                "Help me choose something to buy",
+                "Recommend a product to buy",
+                "What are your top products?",
+                "What do you recommend?"
+            ],
+            "responses": [
+                "Check out our latest arrivals for some great options.  Go Shop > Category",
+                "Our bestsellers are always a good choice. Take a look!  Go Shop > Category",
+                "You might like our featured products section.  Go Shop > Category",
+                "Explore our new collection for some exciting choices.  Go Shop > Category",
+                "Our top-rated items are a great place to start.  Go Shop > Category",
+                "You can't go wrong with our customer favorites.  Go Shop > Category",
+                "How about browsing our seasonal picks for some inspiration?  Go Shop > Category",
+                "Take a look at our popular items for some great ideas.  Go Shop > Category"
+            ]
+        },
+        {
+            "tag": "customize_clothes",
+            "patterns": [
+                "Can I customize my clothes?",
+                "I want to customize my clothes",
+                "How can I customize my order?",
+                "Do you offer custom clothing options?",
+                "I need personalized clothing",
+                "Can you customize this dress for me?"
+            ],
+            "responses": [
+                "Yes, we offer customization options for select items. Please check the product page for customization options.",
+                "You can customize your clothes by selecting the customization options available on the product page.",
+                "We offer customization for some of our products. Please look for the customization options when you select the item.",
+                "Customization options are available for select products. Please check the product details for more information."
+            ]
+        },
+        {
+            "tag": "feedback_help_queries",
+            "patterns": [
+                "I need help with feedback",
+                "How can I give feedback?",
+                "I have a query",
+                "I need assistance with a question",
+                "Where can I submit my feedback?",
+                "How do I get help with my inquiry?",
+                "I have a question",
+                "Can you help me with my feedback?"
+            ],
+            "responses": [
+                "For feedback, queries, or any assistance, please visit our Help Center on the website.",
+                "You can submit your feedback or queries through the Contact Us page on our website.",
+                "Please go to the Help section on our website to get assistance with your feedback or inquiries.",
+                "For any questions or feedback, you can reach out to our support team through the Support page on our website."
+            ]
+        },
+        {
+            "tag": "how_to_purchase",
+            "patterns": [
+                "How do I purchase an item?",
+                "What is the process to buy something?",
+                "How can I buy a product?",
+                "I want to purchase an item",
+                "What are the steps to buy an item?",
+                "Can you tell me how to buy something?",
+                "How to place an order?"
+            ],
+            "responses": [
+                "To purchase an item, simply add it to your cart and proceed to checkout.",
+                "Select the item you want to buy, add it to your cart, and then complete the checkout process.",
+                "You can buy a product by adding it to your shopping cart and following the instructions at checkout.",
+                "Just add the desired item to your cart, click on the cart icon, and follow the steps to place your order."
+            ]
+        },
+        {
+            "tag": "payment_methods",
+            "patterns": [
+                "How can I do the payment?",
+                "What are the payment options?",
+                "How do I pay for my order?",
+                "What payment methods are available?",
+                "How can I pay for my purchase?",
+                "Tell me about the payment options"
+            ],
+            "responses": [
+                "You can pay using various methods such as credit/debit cards, UPI, Net Banking, and popular wallets like Paytm and PhonePe.",
+                "We accept payments via credit cards, debit cards, UPI, Net Banking, and mobile wallets like Google Pay, Paytm, and PhonePe.",
+                "You can complete your purchase using credit/debit cards, UPI, Net Banking, or wallets like Paytm and PhonePe.",
+                "We support multiple payment methods including credit cards, debit cards, UPI, Net Banking, and digital wallets like Google Pay and Paytm."
+            ]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [],
+            "responses": [
+                "I'm sorry, I didn't understand that. Can you please rephrase?",
+                "I'm not sure I understand. Could you try asking in a different way?",
+                "I'm not trained to handle that query. Can I assist you with something else?",
+                "I'm sorry, I don't have information on that. Can I help you with something else?"
+            ]
+        },
+        
+        {
+            "tag": "fabric_quality",
+            "patterns": [
+                "What is the fabric used?",
+                "Can you tell me about the material quality?",
+                "How is the fabric of the product?",
+                "What material is this made of?",
+                "Tell me about the quality of the fabric."
+            ],
+            "responses": [
+                "Our products are made from high-quality fabric, ensuring durability and comfort. The material used varies depending on the product, but we prioritize quality in all our offerings.",
+                "We use a variety of high-quality fabrics in our products, each chosen for its durability, comfort, and style. Our commitment to quality ensures that you get the best value for your purchase.",
+                "The fabric used in our products is carefully selected for its quality and comfort. We understand the importance of material quality, and our products reflect that commitment.",
+                "Our products are made from premium materials, ensuring both comfort and durability. We pay close attention to the quality of the fabric to provide you with the best possible product.",
+                "We take pride in the quality of our fabric, which is chosen for its durability, comfort, and style. Our products are made to last, with material quality being a top priority."
+            ]
+        },
+        {
+            "tag": "end_conversation",
+            "patterns": [
+                "Thank you",
+                "Thanks for your help",
+                "Appreciate your assistance",
+                "That's all for now",
+                "I'm done for now",
+                "I have no more questions"
+            ],
+            "responses": [
+                "You're welcome! If you have any more questions in the future, feel free to ask. Have a great day!",
+                "Glad I could help! If you need assistance in the future, don't hesitate to reach out. Have a wonderful day!",
+                "No problem! If you ever need help again, feel free to ask. Have a fantastic day!",
+                "You're welcome! If there's anything else you need, just let me know. Have a wonderful day!",
+                "You're welcome! If there's anything else I can assist you with, feel free to ask. Have a great day!",
+                "You're welcome! If you have any more questions later on, don't hesitate to ask. Have a fantastic day!"
+            ]
+        },
+        {
+            "tag": "winter_clothes",
+            "patterns": [
+                "Do you have winter clothes?",
+                "What winter clothes do you have?",
+                "Show me winter outfits",
+                "I need clothes for winter",
+                "Winter clothing options?",
+                "What winter collections are available?",
+                "Any winter clothes?",
+                "Can you recommend winter wear?",
+                "What should I wear in winter?",
+                "Looking for winter clothes"
+            ],
+            "responses": [
+                "We have a wide range of winter clothes available in our 'Winter Collection' section.",
+                "Check out our 'Winter Collection' for the latest winter outfits and trends.",
+                "Our 'Winter Collection' features a variety of warm and stylish clothes perfect for the season.",
+                "Explore our 'Winter Collection' for cozy and fashionable winter wear.",
+                "Visit our 'Winter Collection' to find the best clothes for staying warm and stylish this winter.",
+                "We offer a great selection of winter clothes. Head over to our 'Winter Collection' to see more.",
+                "Our 'Winter Collection' includes coats, sweaters, scarves, and more perfect for winter.",
+                "Discover our 'Winter Collection' for a variety of winter clothes to suit your style."
+            ]
+        },
+        {
+            "tag": "return_policy",
+            "patterns": [
+                "What is your return policy?",
+                "Can I return a product?",
+                "How do I return an item?",
+                "What are the rules for returning items?",
+                "Return instructions",
+                "Can I get a refund?",
+                "How to process a return?",
+                "Return policy details",
+                "Tell me about your return policy",
+                "Returns and refunds"
+            ],
+            "responses": [
+                "You can return items within 30 days of purchase. Please visit our 'Returns' page for more details.",
+                "To return a product, go to your order history, select the item, and follow the return instructions.",
+                "We offer easy returns within 30 days. Check our 'Returns' page for the complete policy.",
+                "For returns, ensure the product is in its original condition and packaging. Visit our 'Returns' page for more info.",
+                "Refunds will be processed once we receive and inspect the returned item. Please refer to our 'Returns' page for details.",
+                "You can request a return through our website by going to the order details and selecting 'Return Item'.",
+                "Our return policy allows you to return items within 30 days. For more information, visit our 'Returns' page."
+            ]
+        },
+        {
+            "tag": "order_tracking",
+            "patterns": [
+                "Where is my order?",
+                "Track my order status",
+                "How can I track my shipment?"
+            ],
+            "responses": [
+                "You can track your order using this link: ...",
+                "Your order is currently in transit and expected to arrive by {date}.",
+                "Here is the latest update on your shipment status: ..."
+            ]
+        },
+        {
+            "tag": "ExplainSizeChart_MensShirts",
+            "patterns": [
+                "man Can you explain the size chart for men's shirts?",
+                "man I need help with men's shirt sizes.",
+                "man What are the sizes for men's shirts?"
+            ],
+            "responses": [
+                "Sure! Here is the size chart for men's shirts:\n\n- Small (S): Chest 34-36 inches\n- Medium (M): Chest 38-40 inches\n- Large (L): Chest 42-44 inches\n- Extra Large (XL): Chest 46-48 inches\n- Double Extra Large (XXL): Chest 50-52 inches"
+            ]
+        },
+        {
+            "tag": "ExplainSizeChart_MensPants",
+            "patterns": [
+                "man Can you explain the size chart for men's pants?",
+                "man I need help with men's pants sizes.",
+                "man What are the sizes for men's pants?"
+            ],
+            "responses": [
+                "Sure! Here is the size chart for men's pants:\n\n- Waist 28 inches: Hips 34 inches, Inseam 30 inches\n- Waist 30 inches: Hips 36 inches, Inseam 31 inches\n- Waist 32 inches: Hips 38 inches, Inseam 32 inches\n- Waist 34 inches: Hips 40 inches, Inseam 32.5 inches\n- Waist 36 inches: Hips 42 inches, Inseam 33 inches"
+            ]
+        },
+        {
+            "tag": "ExplainSizeChart_WomensTops",
+            "patterns": [
+                "woman Can you explain the size chart for women's tops?",
+                "woman I need help with women's tops sizes.",
+                "woman What are the sizes for women's tops?"
+            ],
+            "responses": [
+                "Sure! Here is the size chart for women's tops:\n\n- Extra Small (XS): Bust 31-32 inches, Waist 24-25 inches, Hips 33-34 inches\n- Small (S): Bust 33-34 inches, Waist 26-27 inches, Hips 35-36 inches\n- Medium (M): Bust 35-36 inches, Waist 28-29 inches, Hips 37-38 inches\n- Large (L): Bust 37-39 inches, Waist 30-31 inches, Hips 39-41 inches\n- Extra Large (XL): Bust 40-42 inches, Waist 32-34 inches, Hips 42-44 inches"
+            ]
+        },
+        {
+            "tag": "ExplainSizeChart_WomensPants",
+            "patterns": [
+                "woman Can you explain the size chart for women's pants?",
+                "woman I need help with women's pants sizes.",
+                "woman What are the sizes for women's pants?"
+            ],
+            "responses": [
+                "Sure! Here is the size chart for women's pants:\n\n- Waist 24 inches: Hips 34 inches, Inseam 30 inches\n- Waist 26 inches: Hips 36 inches, Inseam 31 inches\n- Waist 28 inches: Hips 38 inches, Inseam 32 inches\n- Waist 30 inches: Hips 40 inches, Inseam 32.5 inches\n- Waist 32 inches: Hips 42 inches, Inseam 33 inches"
+            ]
+        },
+        {
+            "tag": "ExplainSizeChart_KidsClothing",
+            "patterns": [
+                "Can you explain the size chart for kids' clothing?",
+                "I need help with kids' clothing sizes.",
+                "What are the sizes for kids' clothing?"
+            ],
+            "responses": [
+                "Sure! Here is the size chart for kids' clothing:\n\n- 4-5 years: Height 39-45 inches, Weight 34-41 lbs\n- 6-7 years: Height 45-50 inches, Weight 41-50 lbs\n- 8-9 years: Height 50-55 inches, Weight 50-62 lbs\n- 10-11 years: Height 55-60 inches, Weight 62-75 lbs\n- 12-13 years: Height 60-64 inches, Weight 75-88 lbs"
+            ]
+        },
+        {
+            "tag": "ExplainSizeChart_InfantsToddlers",
+            "patterns": [
+                "Can you explain the size chart for infants and toddlers?",
+                "I need help with infants and toddlers clothing sizes.",
+                "What are the sizes for infants and toddlers?"
+            ],
+            "responses": [
+                "Sure! Here is the size chart for infants and toddlers:\n\n- 6-12 months: Height 25-28 inches, Weight 17-22 lbs\n- 12-18 months: Height 28-31 inches, Weight 22-27 lbs\n- 18-24 months: Height 31-34 inches, Weight 27-30 lbs\n- 2T-3T: Height 34-38 inches, Weight 30-34 lbs\n- 3T-4T: Height 38-42 inches, Weight 34-38 lbs"
+            ]
+        }
+    ]
+}

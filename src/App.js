@@ -24,12 +24,14 @@ import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import Shop from "./pages/Shop/Shop";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import ChatBot from "react-chatbotify";
-import { DeepChat } from "deep-chat-react";
+import Chatbot from "./components/Chatbot/Chatbot";
+
+
 
 const Layout = () => {
   return (
     <div>
+      
       <ToastContainer
         position="top-right"
         autoClose={1000}
@@ -49,7 +51,8 @@ const Layout = () => {
       <Outlet />
       <Footer />
       <FooterBottom />
-      <DeepChat/>
+      
+      
     </div>
   );
 };
@@ -79,6 +82,7 @@ function App() {
   return (
     <div className="font-bodyFont">
       <RouterProvider router={router} />
+      <Chatbot />
     </div>
   );
 }
