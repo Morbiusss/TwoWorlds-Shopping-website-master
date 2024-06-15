@@ -25,19 +25,17 @@ Follow these instructions to set up and run the project on your local machine.
 ### Frontend
 
 1. **Clone the Repository**:
-   
-   
-
+    
 2. **Navigate to the Frontend Directory**:
     
 3. **Install Dependencies**:
-   
+    ```sh
     npm install
-    
+    ```
 4. **Run the Project**:
-    
+    ```sh
     npm start
-    
+    ```
     The frontend will be running on `http://localhost:3000`.
 
 ### Chatbot API
@@ -71,11 +69,9 @@ Once the frontend and the API are running, you can access the website through yo
 
 To contribute to this project, please fork the repository and create a pull request. We welcome any contributions that improve the project.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact us at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or suggestions, feel free to contact us at [your-email@example.com](mailto:ayushjay632@gmail.com).
 
