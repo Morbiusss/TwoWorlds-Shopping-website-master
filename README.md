@@ -73,5 +73,5 @@ To contribute to this project, please fork the repository and create a pull requ
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact us at [your-email@example.com](mailto:ayushjay632@gmail.com).
+If you have any questions or suggestions, feel free to contact us at [ayushjay632@gmail.com](mailto:ayushjay632@gmail.com).
 
